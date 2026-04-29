@@ -17,15 +17,12 @@ all: $(TARGET)
 $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) $(INCLUDES) -o $@ $^
 
-# Compilar cada .c en su .o
 %.o: %.c
 	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
-# Limpiar compilados
 clean:
 	rm -f src/*.o $(TARGET)
 
-# Correr el programa
 run: all
 	./$(TARGET)
 

@@ -1,0 +1,105 @@
+ID      ESTADO       TIEMPO         MENSAJE
+C1     NUEVO        1777494234.9571 Camion creado, entrando a cola
+C1     LISTO        1777494234.9574 En cola de planificacion
+C1     BLOQUEADO    1777494234.9576 Esperando muelle disponible (sem_wait)
+C1     EJECUCION    1777494234.9578 Ocupando muelle, iniciando carga
+C5     NUEVO        1777494234.9574 Camion creado, entrando a cola
+C5     LISTO        1777494234.9582 En cola de planificacion
+C5     BLOQUEADO    1777494234.9584 Esperando muelle disponible (sem_wait)
+C5     EJECUCION    1777494234.9586 Ocupando muelle, iniciando carga
+C3     NUEVO        1777494234.9572 Camion creado, entrando a cola
+C3     LISTO        1777494234.9590 En cola de planificacion
+C3     BLOQUEADO    1777494234.9592 Esperando muelle disponible (sem_wait)
+C3     EJECUCION    1777494234.9595 Ocupando muelle, iniciando carga
+C6     NUEVO        1777494234.9575 Camion creado, entrando a cola
+C6     LISTO        1777494234.9599 En cola de planificacion
+C6     BLOQUEADO    1777494234.9601 Esperando muelle disponible (sem_wait)
+C4     NUEVO        1777494234.9574 Camion creado, entrando a cola
+C4     LISTO        1777494234.9604 En cola de planificacion
+C4     BLOQUEADO    1777494234.9606 Esperando muelle disponible (sem_wait)
+C8     NUEVO        1777494234.9577 Camion creado, entrando a cola
+C8     LISTO        1777494234.9610 En cola de planificacion
+C8     BLOQUEADO    1777494234.9612 Esperando muelle disponible (sem_wait)
+C2     NUEVO        1777494234.9572 Camion creado, entrando a cola
+C2     LISTO        1777494234.9616 En cola de planificacion
+C2     BLOQUEADO    1777494234.9618 Esperando muelle disponible (sem_wait)
+C7     NUEVO        1777494234.9576 Camion creado, entrando a cola
+C7     LISTO        1777494234.9622 En cola de planificacion
+C7     BLOQUEADO    1777494234.9624 Esperando muelle disponible (sem_wait)
+C3     TERMINADO    1777494238.9598 Carga completada, muelle liberado
+C6     EJECUCION    1777494238.9599 Ocupando muelle, iniciando carga
+C1     TERMINADO    1777494239.9581 Carga completada, muelle liberado
+C4     EJECUCION    1777494239.9582 Ocupando muelle, iniciando carga
+C6     TERMINADO    1777494239.9607 Carga completada, muelle liberado
+C8     EJECUCION    1777494239.9607 Ocupando muelle, iniciando carga
+C5     TERMINADO    1777494240.9589 Carga completada, muelle liberado
+C2     EJECUCION    1777494240.9589 Ocupando muelle, iniciando carga
+C4     TERMINADO    1777494241.9591 Carga completada, muelle liberado
+C7     EJECUCION    1777494241.9591 Ocupando muelle, iniciando carga
+C2     TERMINADO    1777494243.9597 Carga completada, muelle liberado
+C8     TERMINADO    1777494243.9613 Carga completada, muelle liberado
+C7     TERMINADO    1777494244.9646 Carga completada, muelle liberado
+C1     NUEVO        1777494244.9653 Camion creado, entrando a cola
+C1     LISTO        1777494244.9656 En cola de planificacion
+C8     NUEVO        1777494244.9659 Camion creado, entrando a cola
+C8     LISTO        1777494244.9662 En cola de planificacion
+C8     BLOQUEADO    1777494244.9664 Esperando muelle disponible (sem_wait)
+C8     EJECUCION    1777494244.9666 Ocupando muelle, iniciando carga
+C6     NUEVO        1777494244.9658 Camion creado, entrando a cola
+C6     LISTO        1777494244.9670 En cola de planificacion
+C6     BLOQUEADO    1777494244.9672 Esperando muelle disponible (sem_wait)
+C6     EJECUCION    1777494244.9674 Ocupando muelle, iniciando carga
+C4     NUEVO        1777494244.9655 Camion creado, entrando a cola
+C4     LISTO        1777494244.9678 En cola de planificacion
+C4     BLOQUEADO    1777494244.9680 Esperando muelle disponible (sem_wait)
+C4     EJECUCION    1777494244.9682 Ocupando muelle, iniciando carga
+C1     BLOQUEADO    1777494244.9659 Esperando muelle disponible (sem_wait)
+C3     NUEVO        1777494244.9654 Camion creado, entrando a cola
+C3     LISTO        1777494244.9687 En cola de planificacion
+C3     BLOQUEADO    1777494244.9689 Esperando muelle disponible (sem_wait)
+C7     NUEVO        1777494244.9658 Camion creado, entrando a cola
+C7     LISTO        1777494244.9693 En cola de planificacion
+C7     BLOQUEADO    1777494244.9695 Esperando muelle disponible (sem_wait)
+C2     NUEVO        1777494244.9654 Camion creado, entrando a cola
+C2     LISTO        1777494244.9699 En cola de planificacion
+C2     BLOQUEADO    1777494244.9701 Esperando muelle disponible (sem_wait)
+C5     NUEVO        1777494244.9657 Camion creado, entrando a cola
+C5     LISTO        1777494244.9704 En cola de planificacion
+C5     BLOQUEADO    1777494244.9706 Esperando muelle disponible (sem_wait)
+C6     TERMINADO    1777494245.9846 Carga completada, muelle liberado
+C1     EJECUCION    1777494245.9846 Ocupando muelle, iniciando carga
+C8     LISTO        1777494246.9850 Quantum agotado, re-encolado
+C8     BLOQUEADO    1777494246.9854 Esperando muelle disponible (sem_wait)
+C3     EJECUCION    1777494246.9850 Ocupando muelle, iniciando carga
+C4     TERMINADO    1777494247.0037 Carga completada, muelle liberado
+C7     EJECUCION    1777494247.0037 Ocupando muelle, iniciando carga
+C1     LISTO        1777494247.9855 Quantum agotado, re-encolado
+C1     BLOQUEADO    1777494247.9859 Esperando muelle disponible (sem_wait)
+C2     EJECUCION    1777494247.9856 Ocupando muelle, iniciando carga
+C3     LISTO        1777494248.9863 Quantum agotado, re-encolado
+C3     BLOQUEADO    1777494248.9867 Esperando muelle disponible (sem_wait)
+C5     EJECUCION    1777494248.9863 Ocupando muelle, iniciando carga
+C7     LISTO        1777494249.0046 Quantum agotado, re-encolado
+C7     BLOQUEADO    1777494249.0049 Esperando muelle disponible (sem_wait)
+C8     EJECUCION    1777494249.0046 Retoma muelle tras quantum
+C2     LISTO        1777494249.9867 Quantum agotado, re-encolado
+C2     BLOQUEADO    1777494249.9873 Esperando muelle disponible (sem_wait)
+C1     EJECUCION    1777494249.9868 Retoma muelle tras quantum
+C5     LISTO        1777494250.9875 Quantum agotado, re-encolado
+C5     BLOQUEADO    1777494250.9879 Esperando muelle disponible (sem_wait)
+C3     EJECUCION    1777494250.9876 Retoma muelle tras quantum
+C8     TERMINADO    1777494251.0056 Carga completada, muelle liberado
+C7     EJECUCION    1777494251.0056 Retoma muelle tras quantum
+C1     LISTO        1777494251.9887 Quantum agotado, re-encolado
+C1     BLOQUEADO    1777494251.9892 Esperando muelle disponible (sem_wait)
+C2     EJECUCION    1777494251.9888 Retoma muelle tras quantum
+C7     TERMINADO    1777494252.0067 Carga completada, muelle liberado
+C5     EJECUCION    1777494252.0068 Retoma muelle tras quantum
+C2     TERMINADO    1777494252.9906 Carga completada, muelle liberado
+C1     EJECUCION    1777494252.9906 Retoma muelle tras quantum
+C3     TERMINADO    1777494252.9982 Carga completada, muelle liberado
+C1     TERMINADO    1777494254.0013 Carga completada, muelle liberado
+C5     LISTO        1777494254.0079 Quantum agotado, re-encolado
+C5     BLOQUEADO    1777494254.0082 Esperando muelle disponible (sem_wait)
+C5     EJECUCION    1777494254.0085 Retoma muelle tras quantum
+C5     TERMINADO    1777494256.0089 Carga completada, muelle liberado
